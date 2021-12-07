@@ -11,13 +11,13 @@ ec.order.extraFields.gender = {
 		{ 'title': 'Male', 'value': 'male' },
 		{ 'title': 'Female', 'value': 'female' }
 	],
-	'value': 'male', //Default value
+	'value': 'Male', //Default value
 	'checkoutDisplaySection': 'shipping_address'
 };
 
 //"panel_id" - A REQUIRED FIELD BY MOLECULAR LAB
 ec.order.extraFields.panel_id = {
-	'title': 'Tests required',
+	'title': 'Tests required*',
 	'type': 'select',
 	'required': true,
 	'options': [
