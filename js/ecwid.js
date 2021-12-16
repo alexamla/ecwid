@@ -18,7 +18,7 @@ ec.order.extraFields.gender = {
 //"panel_id" - A REQUIRED FIELD BY MOLECULAR LAB
 ec.order.extraFields.panel_id = {
 	'title': 'Tests required',
-	'type': 'select',
+	'type': 'checkbox',
 	'required': true,
 	'options': [
 		{ 'title': 'Gonorrhea', 'value': '26' },
